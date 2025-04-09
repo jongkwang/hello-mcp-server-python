@@ -45,7 +45,7 @@ cd hello-mcp-server-python
 
 2. Install the required packages:
 ```bash
-pip install mcp httpx
+pip install httpx "mcp[cli]"
 ```
 
 3. Run the server: (Optional if connecting through Cursor or Claude for Desktop)
@@ -172,7 +172,7 @@ cd hello-mcp-server-python
 
 2. 필요한 패키지를 설치합니다:
 ```bash
-pip install mcp httpx
+pip install httpx "mcp[cli]"
 ```
 
 3. 서버 실행: (Cursor나 Claude for Desktop을 통해 연결하는 경우 이 단계는 선택 사항)
